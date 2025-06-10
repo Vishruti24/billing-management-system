@@ -40,9 +40,10 @@
 
 *{
     color: black;
+     /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 72, 255)); */
 }
 
-body {
+ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -58,6 +59,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* login */
 label {
     display: block;
     margin-bottom: 5px;
@@ -111,4 +113,4 @@ button:hover {
 
 .download-btn:hover {
     background-color: #005684;
-}
+} 

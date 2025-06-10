@@ -1,0 +1,124 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 500px; 
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px; 
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: white;
+    border-radius: 6px;
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border:none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+} 
+.login-btn{
+    width: 50%;
+    font-size: 24px;
+    background-color: rgb(92, 92, 244);
+    border-radius: 12px;;
+}
+
+ */
+.login-container {
+  width: 350px;
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: login-fadeIn 1s ease;
+  margin: 80px auto; /* Centering in page */
+}
+
+.login-container h2 {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+/* Input Field Wrapper */
+.login-input {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 8px 15px;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.login-input:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-color: #6D28D9;
+}
+
+.login-input img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.login-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  /* background: transparent; */
+  background:white;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Login Button */
+.login-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient( 45deg, #3a41f4, #03084d);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  letter-spacing: 1px;
+}
+
+.login-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* Fade animation only for login */
+@keyframes login-fadeIn {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
