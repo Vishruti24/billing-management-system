@@ -13,10 +13,10 @@ const Login = ({ onLogin }) => {
       return;
     }
 
-    // For example purpose — in real app, verify from database/server
+
     if (email === 'test@example.com' && password === '123456') {
       alert('Login Successful');
-      onLogin(); // Call parent handler
+      onLogin(); 
     } else {
       alert('Invalid Email or Password');
     }

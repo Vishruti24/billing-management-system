@@ -19,12 +19,14 @@ function App() {
 
     const handleAddItem = (item) => {
         setItems([...items, item]);
+        alert('Added successfully');
     };
 
     const handleDeleteItem = (index) => {
         const updatedItems = [...items];
         updatedItems.splice(index, 1);
         setItems(updatedItems);
+        alert('Deleted Successfully');
     };
 
     const calculateTotalAmount = () => {

@@ -1,18 +1,8 @@
 // components/ItemList.js
-import React,{useState} from 'react';
+import React from 'react';
 
 const ItemList = ({ items,onDeleteItem }) => {
-    // const [items, setItems] = useState([]);
 
-    // const handleAddItem = (item) => {
-    //     setItems([...items, item]);
-    // };
-
-    // const handleDeleteItem = (index) => {
-    //     const updatedItems = [...items];
-    //     updatedItems.splice(index, 1);
-    //     setItems(updatedItems);
-    // };
     
     return (
         <div className="item-list">

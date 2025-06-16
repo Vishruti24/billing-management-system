@@ -8,10 +8,10 @@ const GeneratePDF = ({ items, calculateTotalAmount }) => {
   const handleDownloadPDF = async () => {
     const doc = new jsPDF();
 
-        // Add logo
+      
     const imgProps = doc.getImageProperties(logo);
-    const imgWidth = 30; // width in mm
-    const imgHeight = (imgProps.height * imgWidth) / imgProps.width; // maintain aspect ratio
+    const imgWidth = 30; // mm
+    const imgHeight = (imgProps.height * imgWidth) / imgProps.width; 
     doc.addImage(logo, 'PNG', 10, 10, imgWidth, imgHeight);
 
     // Add Company Name and Info next to logo
@@ -55,30 +55,9 @@ const GeneratePDF = ({ items, calculateTotalAmount }) => {
      const totalAmount = calculateTotalAmount();
      doc.text(`Total Amount: Rs.${totalAmount.toFixed(2)}`, 14, doc.lastAutoTable.finalY + 10);
   
-
-    // Generate QR Code
-    //const qrData = Total Amount: RS ${totalAmount.toFixed(2)}; // You can put any data here like order ID, etc.
-    //const qrCodeDataURL = await QRCode.toDataURL(qrData);
-
-    // Add QR Code to PDF
-    //doc.addImage(qrCodeDataURL, 'PNG', 150, 10, 40, 40); // Adjust position & size as needed
-
-    // Save PDF
     doc.save("invoice_with_qr.pdf");
   };
 
-
-  //   const totalAmount = calculateTotalAmount();
-  //   doc.text(`Total Amount: Rs.${totalAmount.toFixed(2)}`, 14, doc.lastAutoTable.finalY + 10);
-
-  //       // Generate QR Code
-  //   //const qrData = Total Amount: Rs ${totalAmount.toFixed(2)}; // You can put any data here like order ID, etc.
-  //   const qrCodeDataURL = await QRCode.toDataURL(qrData);
-
-  //   // Add QR Code to PDF
-  //   doc.addImage(qrCodeDataURL, 'PNG', 150, 10, 40, 40); // Adjust position & size as needed
-  //   doc.save("invoice.pdf");
-  // };
 
   return <button onClick={handleDownloadPDF}>Download PDF</button>;
 };

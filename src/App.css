@@ -1,53 +1,14 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-/* src/App.css */
-
 *{
-    color: black;
-     /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 72, 255)); */
+    color:black;
 }
 
  body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+     background:linear-gradient(to right, rgba(255,0,0,0), rgb(0, 72, 255));
+    
 }
 
 .App {
@@ -55,8 +16,9 @@
     margin: 30px auto;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* animation: app-fadeIn 1s ease; */
 }
 
 /* login */
@@ -69,12 +31,12 @@ input {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
-    box-sizing: border-box;
+    box-sizing: border-box ;
 }
 
 button {
-    background-color: #4caf50;
-    color: #fff;
+    background: linear-gradient( 45deg, #3a41f4, #03084d);
+    color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -82,7 +44,8 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
 .item-list {
@@ -102,7 +65,7 @@ button:hover {
 }
 
 .download-btn {
-    background-color: #008CBA;
+    background: linear-gradient( 45deg, #3a41f4, #03084d);
     color: #fff;
     padding: 10px;
     border: none;
@@ -112,5 +75,6 @@ button:hover {
 }
 
 .download-btn:hover {
-    background-color: #005684;
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 } 
