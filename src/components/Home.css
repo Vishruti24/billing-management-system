@@ -1,0 +1,73 @@
+.home {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home .blue {
+  color: #007bff;
+}
+
+.home p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 15px;
+  color: #555;
+}
+
+.home .info {
+  color: #007bff;
+}
+
+.home .bold {
+  font-weight: bold;
+}
+
+.get-started {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #0056b3;
+}
+
+/* New Styles for Banner Image and Generate Bill Button */
+
+.banner-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #FF4F79; /* Raspberry Pink (as per your brand color) */
+}
+
+.generate-btn {
+  background-color: #6D28D9; /* Deep Royal Purple from your brand */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #5a1fc4; /* Darker Purple on hover */
+}

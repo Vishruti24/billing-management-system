@@ -1,0 +1,97 @@
+.footer-box {
+  background-color: #fff;
+  border-top: 1px solid #eaeaea;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-brand .blue {
+  color: #007bff;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: #222;
+}
+
+.footer-section li:hover {
+  text-decoration: underline;
+}
+
+.footer-section p, .footer-brand p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-icons svg {
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-icons svg:hover {
+  color: #007bff;
+}
+
+/* Make COMPANY section horizontal */
+.footer-section.horizontal .horizontal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.footer-section.horizontal .horizontal-links li {
+  margin: 0;
+  font-size: 14px;
+  color: #222;
+  cursor: pointer;
+}
+
+.footer-section.horizontal .horizontal-links li:hover {
+  text-decoration: underline;
+}
