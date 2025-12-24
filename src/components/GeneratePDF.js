@@ -62,4 +62,3 @@ const GeneratePDF = ({ items, calculateTotalAmount }) => {
 };
 
 export default GeneratePDF;
-

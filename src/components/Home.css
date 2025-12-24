@@ -53,11 +53,10 @@
 }
 
 .highlight {
-  color: #FF4F79; /* Raspberry Pink (as per your brand color) */
+  color: #FF4F79; 
 }
 
 .generate-btn {
-  background-color: #6D28D9; /* Deep Royal Purple from your brand */
   color: #fff;
   padding: 12px 25px;
   border: none;
@@ -68,6 +67,4 @@
   transition: background 0.3s ease;
 }
 
-.generate-btn:hover {
-  background-color: #5a1fc4; /* Darker Purple on hover */
-}
+

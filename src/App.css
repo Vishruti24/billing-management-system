@@ -1,28 +1,25 @@
- *{
+*{
     color:black;
-}
-
+ }
+ 
  body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #f4f4f4; */
+    background-color: #f4f4f4;
      /* background:linear-gradient(to right, rgba(255,0,0,0), rgb(0, 72, 255)); */
-     background: linear-gradient( 80deg, #3a41f4, #720660) 
-     
+     /* background: linear-gradient( 80deg, #3a41f4, #720660)  */
  }
 
 .App {
     max-width: 600vh;
-    /* max-height: 100%; */
-    margin: 30px auto;
+    max-height: 100%;
+    margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* animation: app-fadeIn 1s ease; */
 }
-
 /* login */
 label {
     display: block;
