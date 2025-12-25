@@ -68,3 +68,66 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# 🧾 Billing Management System (React + Docker)
+
+A **responsive Billing Management System** developed using **React.js** that allows users to log in, create bills, calculate total amounts dynamically, and generate **PDF invoices**.  
+The project is **Dockerized**, making it easy to build, run, and deploy across environments.
+
+---
+
+## 🚀 Project Overview
+
+This application is designed to automate the billing process for small businesses.  
+Users must log in to generate bills. After login, they can enter item details, view the total amount instantly, and download the invoice in PDF format.
+
+---
+
+## ✨ Features
+
+- User authentication (Login required)
+- Add and manage billing items
+- Automatic total amount calculation
+- Invoice generation with PDF download
+- Responsive design (Mobile, Tablet, Desktop)
+- Clean UI with icons and navigation
+- Docker support for deployment
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** – Frontend framework
+- **Create React App** – Project bootstrapping
+- **React Router DOM** – Navigation and routing
+- **Tailwind CSS** – Styling
+- **React Icons** – Icons in Navbar & Footer
+- **jsPDF** – PDF generation
+- **jspdf-autotable** – Invoice table formatting
+- **Docker & Docker Compose** – Containerization
+
+---
+
+## 📁 Application Modules
+
+- **Home Page** – Introduction and login prompt
+- **Login Page** – User authentication
+- **Bill Details Page** – Item entry and total calculation
+- **PDF Generator** – Invoice creation and download
+- **Navbar & Footer** – Navigation and UI consistency
+
+---
+
+## ▶️ Getting Started (Without Docker)
+
+### Prerequisites
+- Node.js
+- npm
+
+### Steps
+
+```bash
+npm install
+npm start
